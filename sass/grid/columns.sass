@@ -464,13 +464,76 @@ $column-gap: 0.75rem !default
     &.is-desktop
       display: flex
 
-.columns.is-variable
-  --columnGap: 0.75rem
-  margin-left: calc(-1 * var(--columnGap))
-  margin-right: calc(-1 * var(--columnGap))
+//.columns.is-variable
+//  --columnGap: 0.75rem
+//  margin-left: calc(-1 * var(--columnGap))
+//  margin-right: calc(-1 * var(--columnGap))
+//  .column
+//    padding-left: var(--columnGap)
+//    padding-right: var(--columnGap)
+//  @for $i from 0 through 8
+//    &.is-#{$i}
+//      --columnGap: $i * 0.25rem
+
+.columns.is-variable.is-0
+  margin-left: 0.0rem
+  margin-right: 0.0rem
   .column
-    padding-left: var(--columnGap)
-    padding-right: var(--columnGap)
-  @for $i from 0 through 8
-    &.is-#{$i}
-      --columnGap: #{$i * 0.25rem}
+    padding-left: 0.0rem
+    padding-right: 0.0rem
+
+.columns.is-variable.is-1
+  margin-left: -0.25rem
+  margin-right: -0.25rem
+  .column
+    padding-left: 0.25rem
+    padding-right: 0.25rem
+
+.columns.is-variable.is-2
+  margin-left: -0.5rem
+  margin-right: -0.5rem
+  .column
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+
+.columns.is-variable.is-3
+  margin-left: -0.75rem
+  margin-right: -0.75rem
+  .column
+    padding-left: 0.75rem
+    padding-right: 0.75rem
+
+.columns.is-variable.is-4
+  margin-left: -1.0rem
+  margin-right: -1.0rem
+  .column
+    padding-left: 1.0rem
+    padding-right: 1.0rem
+
+.columns.is-variable.is-5
+  margin-left: -1.25rem
+  margin-right: -1.25rem
+  .column
+    padding-left: 1.25rem
+    padding-right: 1.25rem
+
+.columns.is-variable.is-6
+  margin-left: -1.5rem
+  margin-right: -1.5rem
+  .column
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.columns.is-variable.is-7
+  margin-left: -1.75rem
+  margin-right: -1.75rem
+  .column
+    padding-left: 1.75rem
+    padding-right: 1.75rem
+
+.columns.is-variable.is-8
+  margin-left: -2.0rem
+  margin-right: -2.0rem
+  .column
+    padding-left: 2.0rem
+    padding-right: 2.0rem
