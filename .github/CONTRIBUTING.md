@@ -45,7 +45,7 @@ Thanks for helping out! 😇
   &:pseudo-class
     // ...
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     // Loop
   // Sizes
   &.is-small

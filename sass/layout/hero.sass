@@ -11,9 +11,9 @@
     ul
       border-bottom: none
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
-    $color-invert: nth($pair, 1)
+    $color-invert: nth($pair, 2)
     &.is-#{$name}
       background-color: $color
       color: $color-invert

@@ -100,7 +100,7 @@ $button-static-border-color: $grey-lighter !default
       background-color: transparent
       border-color: transparent
       box-shadow: none
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}

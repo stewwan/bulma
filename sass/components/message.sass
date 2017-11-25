@@ -32,7 +32,7 @@ $message-body-pre-code-background-color: transparent !default
   &.is-large
     font-size: $size-large
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     $color-lightning: max((100% - lightness($color)) - 2%, 0%)

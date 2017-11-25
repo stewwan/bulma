@@ -89,7 +89,7 @@ $alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'rig
 .is-uppercase
   text-transform: uppercase !important
 
-@each $name, $pair in $colors
+@each $name, $pair in $bulma-colors
   $color: nth($pair, 1)
   .has-text-#{$name}
     color: $color !important

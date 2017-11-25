@@ -49,7 +49,7 @@ $navbar-divider-background-color: $border !default
   background-color: $navbar-background-color
   min-height: $navbar-height
   position: relative
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}

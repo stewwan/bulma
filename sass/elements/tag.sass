@@ -55,7 +55,7 @@ $tag-delete-margin: 1px !default
     margin-left: 0.25em
     margin-right: -0.375em
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}

@@ -75,7 +75,7 @@ $help-size: $size-small !default
   &[readonly]
     box-shadow: none
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     &.is-#{$name}
       border-color: $color
@@ -176,7 +176,7 @@ $help-size: $size-small !default
     &::after
       border-color: $input-hover-color
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     &.is-#{$name} select
       border-color: $color
@@ -222,7 +222,7 @@ $help-size: $size-small !default
   justify-content: flex-start
   position: relative
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}
@@ -402,7 +402,7 @@ $help-size: $size-small !default
   display: block
   font-size: $help-size
   margin-top: 0.25rem
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     &.is-#{$name}
       color: $color

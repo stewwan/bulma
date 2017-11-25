@@ -71,7 +71,7 @@
   overflow: hidden
   position: relative
   text-align: center
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     &.is-#{$name}
       background-color: $color
@@ -162,7 +162,7 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
   pre code
     background: transparent
   // Colors
-  @each $name, $pair in $colors
+  @each $name, $pair in $bulma-colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}

@@ -18,7 +18,7 @@ But the _primary_ color is mostly used as the **brand** color, and is not necess
 
 * the `$link` color defaults to `$blue`
 * `$info` is using the new `$cyan` color
-* `$link` has been added to the `$colors` map as well
+* `$link` has been added to the `$bulma-colors` map as well
 
 ```sass
 // New styles
